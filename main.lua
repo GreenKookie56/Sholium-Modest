@@ -82,3 +82,4 @@ function get_blind_amount(ante)
 
 	return amount
 end
+end
