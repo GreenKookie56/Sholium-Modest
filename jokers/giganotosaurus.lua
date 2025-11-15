@@ -10,7 +10,7 @@ SMODS.Joker{ --Giganotosaurus
     loc_txt = {
         ['name'] = 'Giganotosaurus',
         ['text'] = {
-            [1] = '{X:red,C:white}X10{} Mult',
+            [1] = '{X:red,C:white}X4{} Mult',
             [2] = '{C:blue}-2{} hands',
             [3] = 'when a hand is played'
         },
