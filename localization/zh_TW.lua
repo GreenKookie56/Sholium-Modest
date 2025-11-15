@@ -4,7 +4,7 @@ return {
 			c_sholium_sholstar = {
 				name = "S O L",
 				text = {
-					"隨機升級{C:attention}3{}個牌型{C:attention}1{}個等級",
+					"隨機升級{C:attention}3{}個牌型",
 				},
 			},
                },
@@ -12,7 +12,7 @@ return {
 			c_sholium_amphication = {
 				name = "餛飩之劍",
 				text = {
-					"賦予至多{C:attention}1{}張牌隨機{C:enhanced}強化{}及{C:attention}封蠟章{}",
+					"賦予{C:attention}1{}張牌隨機{C:enhanced}強化{}及{C:attention}封蠟章{}",
 				},
 			},
                },
