@@ -53,25 +53,3 @@ end
 
 load_jokers_folder()
 load_consumables_folder()
-
-local gba = get_blind_amount
-function sigFig(num,figures)
-    local x=figures - math.ceil(math.log10(math.abs(num)))
-    return(math.floor(num*10^x+0.5)/10^x)
-end
-function get_blind_amount(ante)
-	local amount = 1
-	if ante - math.floor(ante) ~= 0 then
-		local a = gba(math.floor(ante)) ^ (ante - math.floor(ante))
-		local b = gba(math.ceil(ante)) ^ (1 - (ante - math.floor(ante)))
-		amount = a * b
-	else
-		amount = gba(ante)
-	end
-		if ante <= 8 and ante >= 2 then 
-			amount = sigFig(amount * 2^((ante-1)/7),2)
-		elseif ante >= 8 then
-			amount = amount*2
-		end
-	return amount
-end
