@@ -122,14 +122,14 @@ return {
 					"出牌時此數值乘以{C:red}#2#{}",
 				},
 			},
-			j_sholium_iciclez = {
+			j_sholmod_iciclez = {
 				name = "Iciclez_",
 				text = {
 					"進入盲注時",
 					"建立一個{C:attention}小帳{}",
 				},
 			},
-			j_sholium_iciclezalt = {
+			j_sholmod_iciclezalt = {
 				name = "Iciclez_的小帳",
 				text = {
 					"{X:red,C:white}X1.1{}倍率",
@@ -163,20 +163,20 @@ return {
 					"{X:blue,C:white}X3{}籌碼",
 				},
 			},
-			j_sholium_sealpurple = {
+			j_sholmod_sealpurple = {
 				name = "紫色隱者",
 				text = {
 					"{C:attention}-1{}手牌大小",
 					"棄牌時隨機產生一張{C:tarot}塔羅牌{}",
 				},
 			},
-			j_sholium_rosalia = {
+			j_sholmod_rosalia = {
 				name = "小橘子(v43)",
 				text = {
 					"{C:blue}+43{}籌碼",
  				},
 			},
-			j_sholium_squalch = {
+			j_sholmod_squalch = {
 				text = {
 					"{C:blue}+#2#{}籌碼",
 					"若本回合第一次出牌包含{C:attention}剛好4張牌{}，",
@@ -184,14 +184,14 @@ return {
 					"{C:inactive,s:0.7}(ex. +1, +4, +9, +16...){}",
 				},
 			},
-			j_sholium_stupidowlstall = {
+			j_sholmod_stupidowlstall = {
 				name = "角鶚",
 				text = {
 					"出牌時有{C:green}#4#/#5#{}機率",
 					"{C:blue}+#1#{}出牌次數並{X:blue,C:white}X#2#{}籌碼",
 				},
 			},
-			j_sholium_theblazingsun = {
+			j_sholmod_theblazingsun = {
 				name = "熾熱太陽",
 				text = {
 					"每{C:attention}5{}次出牌{C:red}+55{}倍率",
