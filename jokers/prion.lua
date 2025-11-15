@@ -2,7 +2,7 @@ SMODS.Joker{ --Prion
     key = "prion",
     config = {
         extra = {
-            odds = 3,
+            odds = 4,
             ante_value = 1
         }
     },
