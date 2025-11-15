@@ -6,7 +6,7 @@ SMODS.Consumable {
         name = 'Amphication',
         text = {
         [1] = 'Randomizes {C:enhanced}Enhancement{} and {C:attention}Seal{}',
-        [2] = 'of up to {C:attention}2{} selected cards',
+        [2] = 'of selected card',
     }
     },
     cost = 3,
@@ -17,7 +17,7 @@ SMODS.Consumable {
     atlas = 'CustomConsumables',
     use = function(self, card, area, copier)
         local used_card = copier or card
-        if (#G.hand.highlighted >= 1 and #G.hand.highlighted <= 2) then
+        if (#G.hand.highlighted = 1) then
             G.E_MANAGER:add_event(Event({
                 trigger = 'after',
                 delay = 0.4,
