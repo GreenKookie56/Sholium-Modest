@@ -78,8 +78,5 @@ function get_blind_amount(ante)
 		elseif ante >= 8 then
 			amount = amount*2
 		end
-	end
-
 	return amount
-end
 end
