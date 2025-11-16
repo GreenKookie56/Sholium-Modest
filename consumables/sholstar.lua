@@ -3,7 +3,7 @@ SMODS.Consumable {
     set = 'Planet',
     pos = { x = 1, y = 0 },
     config = { extra = {
-        levels = 3
+        levels = 1
     } },
     loc_txt = {
         name = 'S O L',
@@ -52,7 +52,7 @@ SMODS.Consumable {
                     return true
                 end
             }))
-            update_hand_text({ sound = 'button', volume = 0.7, pitch = 0.9, delay = 0 }, { level = '+'..tostring(3) })
+            update_hand_text({ sound = 'button', volume = 0.7, pitch = 0.9, delay = 0 }, { level = '+'..tostring(1) })
             delay(1.3)
             
             local hand_pool = {}
@@ -101,7 +101,7 @@ SMODS.Consumable {
                     return true
                 end
             }))
-            update_hand_text({ sound = 'button', volume = 0.7, pitch = 0.9, delay = 0 }, { level = '+'..tostring(3) })
+            update_hand_text({ sound = 'button', volume = 0.7, pitch = 0.9, delay = 0 }, { level = '+'..tostring(1) })
             delay(1.3)
             
             local hand_pool = {}
@@ -150,7 +150,7 @@ SMODS.Consumable {
                     return true
                 end
             }))
-            update_hand_text({ sound = 'button', volume = 0.7, pitch = 0.9, delay = 0 }, { level = '+'..tostring(3) })
+            update_hand_text({ sound = 'button', volume = 0.7, pitch = 0.9, delay = 0 }, { level = '+'..tostring(1) })
             delay(1.3)
             
             local hand_pool = {}
