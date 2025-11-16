@@ -50,7 +50,7 @@ return {
 				name = "氣球吸塵器",
 				text = {
 					"進入{C:attention}盲注{}時，{C:red}+#1#{}棄牌次數",
-					"每個{C:attention}底注{}棄牌數量{C:red}+#2#{}",
+					"每個{C:attention}底注{}有{C:green}#4#/#5#{}機率棄牌數量{C:red}+#2#{}",
 				},
 			},
 			j_sholmod_carrierflagship = {
