@@ -4,8 +4,7 @@ SMODS.Joker{ --Water Tower
     config = {
         extra = {
             mult = 0,
-            multmod = 3,
-            explode = 0
+            multmod = 3
         }
     },
     loc_txt = {
