@@ -292,7 +292,7 @@ return {
 					"{C:blue}+#2#{}籌碼",
 					"若本回合第一次出牌包含{C:attention}剛好4張牌{}，",
 					"籌碼成長至下一個{C:attention}完全平方數{}",
-					"{C:inactive,s:0.7}(ex. +1, +4, +9, +16...){}",
+					"{C:inactive,s:0.7}(ex. +4, +9, +16, +25...){}",
 				},
 			},
 			j_sholmod_stupidowlstall = {
