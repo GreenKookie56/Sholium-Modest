@@ -12,8 +12,6 @@ SMODS.Joker{ --Flash
             [1] = 'Create a {C:dark_edition}Negative{} {C:attention}Flash Card{}',
             [2] = 'when {C:green}shop{} is {C:attention}rerolled{}',
             [3] = 'Each {C:attention}Flash Card{} gives {X:red,C:white}X#1#{} Mult',
-            [4] = 'increase {X:red,C:white}XMult{} value by {X:red,C:white}2{}',
-            [5] = 'when shop is rerolled'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
@@ -56,11 +54,6 @@ SMODS.Joker{ --Flash
     calculate = function(self, card, context)
         if context.reroll_shop or context.forcetrigger then
                 return {
-                    func = function()
-                    card.ability.extra.xmult = (card.ability.extra.xmult) + 2
-                    return true
-                end,
-                    extra = {
                         func = function()
             local created_joker = true
             G.E_MANAGER:add_event(Event({
@@ -81,7 +74,6 @@ SMODS.Joker{ --Flash
             return true
         end,
                         colour = G.C.BLUE
-                        }
                 }
         end
         if context.other_joker  then
